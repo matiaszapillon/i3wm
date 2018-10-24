@@ -48,7 +48,7 @@ bindsym $mod+z exec morc_menu
 exec --no-startup-id nitrogen --restore; sleep 1; compton -b
 #exec_always --no-startup-id volumeicon > ANDA PARA EL ORTO. (Muestra el icono pero se tilda y registra mal el volumen)
 #exec_always pa-applet  NO ANDA, NO PUDE INSTALARLO BIEN.
-exec_always --no-startup-id /usr/bin/pasystray #ANDA. TUVE QUE INSTALAR OTROS PAQUETES PARA HABILITAR COMANDOS
+#exec_always --no-startup-id /usr/bin/pasystray #ANDA. (Lo deshabilite porque agregue eventos click al py3status)TUVE QUE INSTALAR OTROS PAQUETES PARA HABILITAR COMANDOS
 #(paman - pavucontrol - pavumeter - paprefs)
 exec_always --no-startup-id nm-applet 
 #(nm-applet ANDA, EXEC_ALWAY EJECUTA APLICACION AUTOMATICAMENTE)
